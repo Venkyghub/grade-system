@@ -16,7 +16,7 @@ def grade_calculation():
         else :
             raise ValueError("Invalid Value")
 
-        print(f"MARK:{mark} -> GRADE HELLO: {GRADE}")
+        print(f"MARK:{mark} -> GRADE : {GRADE}")
     except Exception as e:
         print(f"Error: {e}")
 
